@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #dff6ff, #fef6e4);
+  color: #333;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Título */
+
+h1 {
+  text-align: center;
+  color: #176b87;
+  font-size: 42px;
+  margin-bottom: 40px;
+}
+
+/* Cards */
+
+#root > div {
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #176b87;
+  margin-bottom: 15px;
+}
+
+p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+/* Imagem */
+
+img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 15px;
+}
+
+/* Botões */
+
+button {
+  background-color: #176b87;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px 3px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #0f4f63;
+  transform: translateY(-2px);
+}
